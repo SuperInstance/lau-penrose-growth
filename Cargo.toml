@@ -1,0 +1,14 @@
+[package]
+name = "lau-penrose-growth"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/SuperInstance/lau-penrose-growth"
+description = "Grow don't calculate — Penrose tilings, golden spirals, and shell growth as deterministic aperiodic structure without computation"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+nalgebra = "0.33"
+
+[dev-dependencies]
+serde_json = "1.0.150"
